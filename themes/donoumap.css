@@ -1,0 +1,31 @@
+
+body { margin: 0; line-height: 160%; font-family: arial,sans-serif; }
+html, body, #map_canvas { width: 100%; height: 100%; }
+
+#infoWindow {
+  width: 250px;
+}
+#infoWindow h1 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+#infoWindow p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 160%;
+}
+#infoWindow p span {
+  font-size: 80%;
+}
+#infoWindow a {
+  padding-right: 12px;
+  border-bottom: 1px #593869 dotted;
+  color: #593869;
+  background: url(../img/external.gif) right center no-repeat;
+  text-decoration: none;
+}
+#infoWindow a:hover {
+  border: 0;
+  color: #862682;
+  background: url(../img/external_o.gif) right center no-repeat;
+}

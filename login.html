@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Do you know Donou?</title>
+		<link rel="stylesheet" href="themes/Bootstrap.css">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile.structure-1.4.0.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="themes/donoumap.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	</head>
+	<body>
+		<div data-role="page" data-theme="">
+			<div data-role="header" data-position="inline" data-theme="b">
+				<a href="login.html" data-icon="home" data-ajax="false">Login</a>
+				<h1>素晴しい土嚢の世界</h1>
+<!--				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
+						<li><a href="buttons.html" data-icon="star">Buttons</a></li>
+						<li><a href="listviews.html" data-icon="grid">Lists</a></li>
+						<li><a href="nav.html" data-icon="search">Nav</a></li>
+						<li><a href="forms.html" data-icon="gear">Forms</a></li>
+					</ul>
+				</div>
+-->
+			</div>
+			<div data-role="content" data-theme="a">
+
+				<a href="list.html" data-role="button" data-icon="star" data-theme="c">緊急に土嚢が欲しい</a>
+
+				<h2>現在の土嚢カウント<br>
+				<center>
+　必要土嚢数：00000334 　　　　 ストック土嚢：0005535
+</center>				</h2>
+<div id="map_canvas" style="width:90%; height:300px"></div>
+
+			</div>
+		</div>
+	</body>
+</html>
